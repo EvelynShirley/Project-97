@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Lets Chat Web</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <center>
+        <h1 class="header">
+        Chattery<sup><img src="logo.png"></sup>
+        </h1>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <img src="https://images-platform.99static.com/FbbF1colDxG3gGrtyN0-bjZ2Y-o=/0x0:960x960/500x500/top/smart/99designs-contests-attachments/91/91331/attachment_91331353"
+                class="logo">
+            <h3 style="color:aliceblue">See What is happening in the School right now</h3>
+            <h4>Join Chattery Today</h4>
+            <div class="form-group">
+                <label>UserName : </label>
+                <input type="text" id="user_name" class="form-control" placeholder="User Name">
+            </div>
+            <button id="login_button" class="btn btn-primary" onclick="addUser()">Login</button>
+            <br>
+            <br>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
